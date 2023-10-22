@@ -1,0 +1,20 @@
+.expertize {
+  display: flex;
+  gap: 3rem;
+
+  &-left, &-right {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+  }
+
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  time {
+    color: #667081;
+    font-size: 1.6rem;
+  }
+}

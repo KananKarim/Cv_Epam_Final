@@ -1,0 +1,26 @@
+nav{
+    ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 3rem;
+        font-size: 1.6rem;
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            color: #667081;
+            font-weight: 600;
+            transition: color .5s;
+
+            span {
+                font-size: 1.7rem;
+            }
+
+            &:hover{
+                color: #26C17E;
+            }
+        }
+    }
+}

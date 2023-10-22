@@ -1,0 +1,21 @@
+.inner{
+    display: flex;
+    width: 100%;
+    position: relative;
+
+    &-main {
+        flex: 1;
+    }
+
+    .go-up{
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 1000;
+    }
+
+    .go-up button {
+        padding: 1rem;
+    }
+}
+
