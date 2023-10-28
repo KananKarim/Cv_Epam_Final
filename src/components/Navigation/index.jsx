@@ -7,39 +7,19 @@ import { BiLogoTelegram } from "react-icons/bi";
 import { FaComment } from "react-icons/fa";
 import { BsFillBoxFill } from "react-icons/bs";
 import "./style.scss";
+import Link from "../Link";
 
 const Navigation = () => {
   return (
     <nav>
       <ul>
-        <a href="#about">
-          <BsFillPersonFill />
-          <span>About me</span>
-        </a>
-        <a href="#education">
-          <PiStudentFill />
-          <span>Education</span>
-        </a>
-        <a href="#experience">
-          <BsFillPenFill />
-          <span>Experience</span>
-        </a>
-        <a href="#skills">
-          <BsFillBoxFill />
-          <span>Skills</span>
-        </a>
-        <a href="#portfolio">
-          <BsBagFill />
-          <span>Portfolio</span>
-        </a>
-        <a href="#contacts">
-          <BiLogoTelegram />
-          <span>Contacts</span>
-        </a>
-        <a href="#feedbacks">
-          <FaComment />
-          <span>Feedbacks</span>
-        </a>
+        <Link href="about" Icon={BsFillPersonFill} text="About me" />
+        <Link href="education" Icon={PiStudentFill} text="Education" />
+        <Link href="experience" Icon={BsFillPenFill} text="Experience" />
+        <Link href="skills" Icon={BsFillBoxFill} text="Skills" />
+        <Link href="portfolio" Icon={BsBagFill} text="Portfolio" />
+        <Link href="contacts" Icon={BiLogoTelegram} text="Contacts" />
+        <Link href="feedbacks" Icon={FaComment} text="Feedbacks" />
       </ul>
     </nav>
   );

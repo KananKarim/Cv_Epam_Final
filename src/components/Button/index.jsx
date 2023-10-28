@@ -1,9 +1,9 @@
 import React from 'react'
 import "./style.scss"
 
-const Button = ({text,sign}) => {
+const Button = ({text,sign,onClick}) => {
   return (
-    <button><span>{sign}</span>{text}</button>
+    <button onClick={onClick}><span>{sign}</span>&nbsp;{text}</button>
   )
 }
 

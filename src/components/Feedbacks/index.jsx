@@ -30,6 +30,7 @@ const Feedbacks = () => {
     <section className="feedbacks" id="feedbacks">
       <Title text="Feedbacks" />
       <Feedback data={data} />
+      {/* make contact data */}
     </section>
   );
 };

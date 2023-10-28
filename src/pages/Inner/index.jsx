@@ -17,7 +17,7 @@ const Inner = () => {
         <About />
         <Education />
         <Experience />
-        {/* <Skills /> */}
+        <Skills />
         <Portfolio />
         <Contacts />
         <Feedbacks />

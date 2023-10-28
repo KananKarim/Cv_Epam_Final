@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.scss";
 
+// change name
 const Expertize = ({ data }) => {
   return (
     <>

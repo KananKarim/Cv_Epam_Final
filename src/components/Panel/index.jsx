@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Avatar from "../Avatar";
 import Navigation from "../Navigation";
-import Button from "../Button";
 import "./style.scss";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import myImg from "../../assets/me.jpg";
+
 
 
 const Panel = () => {
@@ -15,7 +15,7 @@ const Panel = () => {
       {openMenu && (
         <aside className="panel">
           <div className="panel-header">
-            <img src={myImg} />
+            <img src={myImg}/>
             <h1>Kanan Karimli</h1>
           </div>
           <div className="panel-body">

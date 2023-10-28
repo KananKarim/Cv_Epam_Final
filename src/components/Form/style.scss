@@ -1,0 +1,36 @@
+.form{
+    min-width: 100%;
+    min-height: 12rem;
+    padding: 2rem 1rem;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    &-error1, &-error2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: red;
+    }
+
+    &-element {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        label {
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        input {
+            padding: 1rem;
+            width: 30%;
+            outline: none;
+            border-radius: .5rem;
+            border: 1px solid #555;
+        }
+    }
+    button {
+        width: 100px;
+    }
+}

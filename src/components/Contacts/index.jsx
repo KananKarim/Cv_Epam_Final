@@ -15,6 +15,7 @@ const Contacts = () => {
       <ul className="contacts-form">
         <ContactList Icon={BsTelephoneFill} info="000 000 000" href="tel:+000000000" />
         <ContactList Icon={GrMail} info="office@kamsolutions.pl" href="mailto:office@kamsolutions.pl" />
+        {/* change name */}
         <ContactList
           Icon={AiFillInstagram}
           info="karimliikanan"

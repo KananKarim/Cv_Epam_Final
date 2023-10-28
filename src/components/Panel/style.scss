@@ -1,49 +1,46 @@
+.panel {
+  background: #222935;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 1.5rem;
+  gap: 3.5rem;
 
-.panel{
-    background: #222935;
+  &-header {
     display: flex;
     flex-direction: column;
-    width: 25%;
-    padding: 1.5rem;
-    gap: 3.5rem;
-
-    img{
-        width: 100px;
-        border-radius: 50%;
-        border: 2px solid white;
-        filter: drop-shadow(10px 6px 5px rgba(0, 0, 0, 0.3));
-    }
-
-    &-header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        color: white;
-    }
-
-    &-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-    }
-
-    &-goback{
-        text-align: center;
-    }
-
-    
-}
-.panel-menu{
-    background: #222935;
-    font-size: 3rem;
-    padding: .5rem;
-    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
     color: white;
-    margin-top: 1.5rem;
-    border-top-right-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-}
+  }
 
+  &-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &-goback {
+    text-align: center;
+  }
+
+  img {
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    width: 100px;
+  }
+}
+.panel-menu {
+  background: #222935;
+  font-size: 3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: white;
+  margin-top: 1.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
