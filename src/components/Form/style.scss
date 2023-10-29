@@ -33,4 +33,9 @@
     button {
         width: 100px;
     }
+
+    button:disabled{
+        cursor: not-allowed;
+        background-color: #555;
+    }
 }

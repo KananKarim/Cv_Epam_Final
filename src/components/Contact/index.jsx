@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss"
 
 
-const ContactList = ({Icon,info,small,href}) => {
+const Contact = ({Icon,info,small,href}) => {
   return (
     <div className="contacts-element">
         <Icon className="my-icon"/>
@@ -14,4 +14,4 @@ const ContactList = ({Icon,info,small,href}) => {
   );
 };
 
-export default ContactList;
+export default Contact;
